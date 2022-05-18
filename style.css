@@ -6,7 +6,7 @@
 }
 
 .container{
-    width: 40vw;
+    width: 20vw;
     height: 30vh;
     /* border: 1px solid black; */
     margin: auto;
@@ -15,7 +15,7 @@
 
 .menu{
     position: absolute;
-    width: 8vw;
+    width: 3vw;
     height: 30vh;
     /* border: 1px solid red; */
     pointer-events: none;
@@ -27,11 +27,11 @@
 }
 
 .arrow{
-    width:30vw ;
+    width:15vw ;
     display: flex;
     justify-content: space-between;
     background-color: #dc8f14;
-    padding: 0.3rem .5rem;
+    padding: 0.3rem .4rem;
     margin-bottom: 1rem;
 }
 .left{
@@ -61,7 +61,7 @@ ul li a:hover{
 }
 
 .menu:hover{
-    width: 30vw;
+    width: 15vw;
     pointer-events: all;
 }
 
